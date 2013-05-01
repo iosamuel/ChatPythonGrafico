@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>221</width>
+    <height>198</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Servidor de CHAT</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normalon>imgs/server.png</normalon>
+   </iconset>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0">
+    <widget class="QLabel" name="descripcionLabel">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="acceptDrops">
+      <bool>false</bool>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string>Servidor de CHAT</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="labelHost">
+       <property name="text">
+        <string>Host:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="hostTXT">
+       <property name="inputMask">
+        <string/>
+       </property>
+       <property name="text">
+        <string>127.0.0.1</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="labelPort">
+       <property name="text">
+        <string>Puerto:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="portTXT">
+       <property name="text">
+        <string>9090</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="2" column="0">
+    <widget class="QPushButton" name="serverOn">
+     <property name="text">
+      <string>Iniciar</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>imgs/PlayIcon.png</normalon>
+      </iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>20</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+     <property name="autoDefault">
+      <bool>false</bool>
+     </property>
+     <property name="default">
+      <bool>false</bool>
+     </property>
+     <property name="flat">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QPushButton" name="serverOff">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string>Apagar</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>imgs/StopIcon.png</normalon>
+      </iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>20</width>
+       <height>20</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
